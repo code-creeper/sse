@@ -1,4 +1,4 @@
-package com.example;
+package mn.java;
 
 
 import io.micronaut.runtime.EmbeddedApplication;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Assertions;
 import jakarta.inject.Inject;
 
 @MicronautTest
-class SseTest {
+class MnJavaTest {
 
     @Inject
     EmbeddedApplication<?> application;

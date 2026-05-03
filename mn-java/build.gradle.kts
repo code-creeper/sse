@@ -5,7 +5,7 @@ plugins {
 }
 
 version = "0.1"
-group = "com.example"
+group = "mn.java"
 
 
 
@@ -26,7 +26,7 @@ dependencies {
 
 
 application {
-    mainClass = "com.example.Application"
+    mainClass = "mn.java.Application"
 }
 
 java {
@@ -48,7 +48,7 @@ micronaut {
     testRuntime("junit5")
     processing {
         incremental(true)
-        annotations("com.example.*")
+        annotations("mn.java.*")
     }
     aot {
         // Please review carefully the optimizations enabled below
